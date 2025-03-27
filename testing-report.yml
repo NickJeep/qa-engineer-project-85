@@ -58,3 +58,7 @@
 - summary: |
     Просмотр рейтинга игроков
   status: pass
+
+- summary: |
+    Создание турнира
+  status: fail
