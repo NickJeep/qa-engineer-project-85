@@ -16,6 +16,10 @@
   status: pass
 
 - summary: |
+    Создание игры
+  status: pass
+
+- summary: |
     Игра с ботом
   status: pass
 
