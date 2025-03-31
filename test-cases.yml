@@ -60,6 +60,21 @@
     Пароль восстановлен. Можно зайти в свой аккаунт на сайт
 
 - summary: |
+    Создание игры
+  requirement: |
+    Пользователь может создать игру
+  prerequisites: |
+    Открыта главная страница сайта
+  test-data: |
+    Логин = Ragnar1test@gmail.com, Пароль = 123456789a!
+  steps:
+    - Нажать "Create a game"
+    - Настроить условия игры (Level, Game Type, Time control и др)
+    - Нажать "Create battle"
+  expected-result: |
+    Игра создана
+
+- summary: |
     Игра с ботом
   requirement: |
     Пользователь должен иметь возможность сыграть с ботом
